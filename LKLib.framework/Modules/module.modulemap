@@ -1,0 +1,11 @@
+framework module LKLib {
+  umbrella header "LKLib.h"
+
+  export *
+  module * { export * }
+}
+
+module LKLib.Swift {
+    header "LKLib-Swift.h"
+    requires objc
+}
